@@ -1,0 +1,58 @@
+h4 {
+  display: inline-block;
+  margin: 0;
+}
+progress {
+  display: inline-block;
+}
+header {
+  background-color: #ccca;
+}
+footer {
+  position: absolute;
+  top: 95%;
+}
+li {
+  background-color: #bbba;
+}
+.lvlbar,
+.manabar {
+  margin: 0;
+}
+#score {
+  z-index: 1;
+  position: absolute;
+}
+
+#thereBody {
+  margin-left: 10%;
+  transform: rotate(45deg);
+  position: absolute;
+  margin-top: 10%;
+}
+.menubutton {
+  border: 1px solid rgba(73, 73, 73, 0.822);
+  display: inline-block;
+}
+.greens {
+  border: 1px solid rgba(73, 73, 73, 0.822);
+  background-color: rgb(28, 194, 55);
+  width: 24px;
+  height: 24px;
+  color: inherit;
+}
+.place {
+  color: inherit;
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(73, 73, 73, 0.822);
+  background-color: rgb(198, 202, 199);
+}
+#thereMap {
+  background-color: rgb(41, 124, 62);
+  display: grid;
+  place-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
